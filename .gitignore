@@ -1,0 +1,30 @@
+# Python
+*.pyc
+__pycache__/
+venv/
+.venv/
+*.bak
+*.swp
+
+# Editor/IDE
+.vscode/
+.idea/
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Logs and Databases (if any created by the extension)
+*.log
+*.sqlite
+*.db
+
+# Stable Diffusion Web UI Specific (Adjust if necessary based on your extension)
+# Note: You generally DO NOT want to ignore generated images if your history feature tracks them.
+# These are just examples of *potential* temporary files/folders you might want to ignore.
+# tmp/
+# temp/
+# *.tmp
+
+# User-specific configurations that shouldn't be shared
+# config.json # 例：共有すべきでない設定ファイル名
